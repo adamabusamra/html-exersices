@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            
+            #submission {
+                            text-align: center;}
+                            
+                          fieldset {  background-color: rgb(248, 248, 177); width:370px ; margin:auto;
+} 
+
+}
+  select {text-align: center;}
+                        
+        </style>
+        <title>Exercise 4</title>
+    <body>
+        
+        <form>
+            <fieldset>
+                <legend><b>Persional details</b></legend>
+
+                   
+
+                        <label for="Username">Username:</label>
+                    <input style="width: 150px;" type="text" name="Username" value=""><br>
+
+                    <label for="last name">Last name:</label>
+                    <input style="width: 150px;" type="text" name="Last name" value=""><br>
+                    
+                    <label for="Email">Email:</label>
+                    <input style="width: 150px;" type="email" name="email" value=""><br>
+
+            
+                    Gender:
+                    <input type="radio" name="gender" value="male">
+                    <label for="gender">male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Magazines</b></legend>
+
+                    <input type="checkbox" name="Stavanger aftenblad" value="">
+                    <label for="Stavanger aftenblad">Stavanger aftenblad</label><br>
+                    <input type="checkbox" name="Teknisk Ukeblad" value="">
+                    <label for="Teknisk Ukeblad">Teknisk Ukeblad</label><br>
+                    <input type="checkbox" name="Se og Hør" value="">
+                    <label for="Se og Hør">Se og Hør</label><br>
+                    <input type="checkbox" name="Familien" value="">
+                    <label for="Familien">Familien</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Subscription</b></legend>
+
+                    
+                    <div style="text-align: center;">Period:<select>
+                        <option value="6">6 months</option>
+                        <option value="12">12 months</option>
+                        <option value="18">18 months</option>
+                        <option value="24">24 months</option>
+                    </select></div><br>
+            </fieldset>
+                    
+            <p id="submission"><input type="submit" name="Submit"value="Subscribe"></p>
+        </form>
+    
+    </body>
+</html>
